@@ -1,0 +1,35 @@
+
+QWidget#centralWidget {
+    background-color: #1e1e2e;
+}
+
+QPushButton#settingsButton {
+    color = #b4befe;
+}
+
+QLabel#display {
+    color: #b4befe;
+}
+
+QPushButton {
+    border-radius: 12px;
+    color = #cdd6f4;
+}
+
+QPushButton[buttonType = "default"] {
+    background-color: #181825;
+    border: 2px solid #b4befe;
+}
+
+QPushButton[buttonType = "pink"] {
+    background-color: #f5c2e7;
+    border: 2px solid #cba6f7;
+    border-radius: 12px;
+
+}
+
+QPushButton[buttonType = "sky"] {
+    background-color: #89b4fa;
+    border: 2px solid #9399b2;
+    border-radius: 12px;
+}
